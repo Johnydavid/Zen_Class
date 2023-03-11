@@ -1,0 +1,21 @@
+db.class.find({"date": {
+    '$gte': ISODate("2020-10-01T00:00:00.000Z"),
+    '$lt': ISODate("2020-11-01T00:00:00.000Z")
+}}, {"_id":0,"tasks":1, "topics":1, "date":1});
+
+
+{
+  date: 2020-10-15T00:00:00.000Z,
+  topics: 'HTML',
+  tasks: 'Survey Form'
+}
+{
+  date: 2020-10-25T00:00:00.000Z,
+  topics: 'CSS',
+  tasks: 'Tribute Page'
+}
+{
+  date: 2020-10-30T00:00:00.000Z,
+  topics: 'JavaScript',
+  tasks: 'API'
+}

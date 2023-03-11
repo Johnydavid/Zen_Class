@@ -1,0 +1,67 @@
+db.placement.find({},{"_id":0, "students":1, "company_drives":1});
+{
+  students: [
+    'John',
+    'David',
+    'Karthick',
+    'Rahul',
+    'Sai'
+  ],
+  company_drives: [
+    'Infosys',
+    'CTS'
+  ]
+}
+{
+  students: [
+    'Rahul',
+    'David',
+    'Karthick'
+  ],
+  company_drives: [
+    'Deloitte',
+    'TCS'
+  ]
+}
+{
+  students: [
+    'Sai',
+    'Rahul'
+  ],
+  company_drives: [
+    'WIPRO',
+    'Accenture'
+  ]
+}
+{
+  students: [
+    'John',
+    'David',
+    'Sai',
+    'Karthick'
+  ],
+  company_drives: [
+    'L&T',
+    'LSEG'
+  ]
+}
+{
+  students: [
+    'David',
+    'Sai'
+  ],
+  company_drives: [
+    'Tech Mahindra',
+    'Infosys'
+  ]
+}
+{
+  students: [
+    'Karthick',
+    'Sai'
+  ],
+  company_drives: [
+    'S&P Global',
+    'RRD'
+  ]
+}

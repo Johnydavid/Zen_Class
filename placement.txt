@@ -1,0 +1,41 @@
+[
+
+{
+"date" : new ISODate("2020-10-01"),
+"students": ["John", "David", "Karthick", "Rahul", "Sai"],
+"company_drives": [ "Infosys", "CTS"]
+
+},
+
+{
+"date" : new ISODate("2020-10-07"),
+"students": ["Rahul", "David", "Karthick"],
+"company_drives": [  "Deloitte", "TCS" ]
+
+},
+
+{
+"date" : new ISODate("2020-10-15"),
+"students": [ "Sai", "Rahul" ],
+"company_drives": [ "WIPRO", "Accenture"]
+},
+
+{
+"date" : new ISODate("2020-10-22"),
+"students": ["John", "David", "Sai", "Karthick" ],
+"company_drives": [ "L&T", "LSEG" ]
+},
+
+{
+"date" : new ISODate("2020-10-31"),
+"students": [ "David", "Sai" ],
+"company_drives": [ "Tech Mahindra", "Infosys" ]
+},
+
+{
+"date" : new ISODate("2020-11-10"),
+"students": [ "Karthick", "Sai" ],
+"company_drives": [ "S&P Global", "RRD" ]
+}
+
+]

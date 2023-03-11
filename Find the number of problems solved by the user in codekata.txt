@@ -1,0 +1,23 @@
+db.codekata.find({}, {"user_name":1, "problem_solved":1, "_id":0});
+
+
+{
+  user_name: 'John',
+  problem_solved: 200
+}
+{
+  user_name: 'David',
+  problem_solved: 250
+}
+{
+  user_name: 'Karthick',
+  problem_solved: 150
+}
+{
+  user_name: 'Rahul',
+  problem_solved: 200
+}
+{
+  user_name: 'Sai',
+  problem_solved: 220
+}

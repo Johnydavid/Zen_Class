@@ -1,0 +1,38 @@
+[{
+
+"user_id": 1,
+"user_name": "John",
+"problem_solved" : 200
+},
+
+{
+
+"user_id": 2,
+"user_name": "David",
+"problem_solved" : 250
+},
+
+{
+
+"user_id": 3,
+"user_name": "Karthick",
+"problem_solved" : 150
+},
+
+{
+
+"user_id": 4,
+"user_name": "Rahul",
+"problem_solved" : 200
+},
+
+{
+
+"user_id": 5,
+"user_name": "Sai",
+"problem_solved" : 220
+}
+
+]       
+
+

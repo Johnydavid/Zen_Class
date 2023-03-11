@@ -1,0 +1,27 @@
+db.placement.find({"date": {
+    '$gte': ISODate("2020-10-15T00:00:00.000Z"),
+    '$lte': ISODate("2020-10-31T00:00:00.000Z")
+}}, {"_id":0,"company_drives":1, "date":1});
+
+
+{
+  date: 2020-10-15T00:00:00.000Z,
+  company_drives: [
+    'WIPRO',
+    'Accenture'
+  ]
+}
+{
+  date: 2020-10-22T00:00:00.000Z,
+  company_drives: [
+    'L&T',
+    'LSEG'
+  ]
+}
+{
+  date: 2020-10-31T00:00:00.000Z,
+  company_drives: [
+    'Tech Mahindra',
+    'Infosys'
+  ]
+}

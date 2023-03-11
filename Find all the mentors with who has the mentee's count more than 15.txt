@@ -1,0 +1,23 @@
+db.mentors.aggregate({$match: {"mentees":{$gt:15}} 
+    });
+
+
+
+{
+  _id: ObjectId("6409ebe564cdb9097e216768"),
+  mentor_id: 2,
+  mentor_name: 'Vijay',
+  mentees: 25
+}
+{
+  _id: ObjectId("6409ebe564cdb9097e216769"),
+  mentor_id: 3,
+  mentor_name: 'Arun',
+  mentees: 20
+}
+{
+  _id: ObjectId("6409ebe564cdb9097e21676a"),
+  mentor_id: 4,
+  mentor_name: 'Raj',
+  mentees: 30
+}

@@ -1,0 +1,94 @@
+
+[
+
+
+{"users": 5},
+{
+ 
+"date" : new ISODate("2020-10-15"),   
+
+"attendance" : [
+{"absent" : 0 },
+{"task_not_submitted":2}
+
+],
+
+"topics": "HTML",
+"tasks": "Survey Form",
+"mentor" : "Vivek"
+
+},
+
+
+{
+"date" : new ISODate("2020-10-25"),
+  
+
+"attendance" :
+[
+{"absent" : 1},
+{"task_not_submitted":1}
+],
+
+"topics": "CSS",
+"tasks": "Tribute Page",
+"mentor" : "Vijay"
+
+},
+
+{
+"date" : new ISODate("2020-10-30"),
+  
+
+"attendance" : [
+{"absent" : 2},
+{"task_not_submitted":2}
+
+],
+
+"topics": "JavaScript",
+"tasks": "API",
+"mentor" : "Arun"
+
+},
+
+{
+"date" : new ISODate("2020-11-12"),
+  
+"attendance" : [
+{"absent" : 0},
+{"task_not_submitted":1}
+],
+
+"topics": "MongoDB",
+"tasks": "Database Creation",
+"mentor" : "Raj"
+
+}
+]
+
+    {
+"date" : new ISODate("2020-10-20"),
+  
+
+"attendance" : [
+{"absent" : 1},
+
+{"task_not_submitted":3}
+
+],
+
+"topics": "NodeJS",
+"tasks": "CRUD"
+},
+
+"mentor" : "Mani"
+
+}
+
+
+]
+	
+	
+
+	
